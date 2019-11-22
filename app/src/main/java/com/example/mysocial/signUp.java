@@ -111,6 +111,6 @@ public class signUp extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
         usName = firebaseDatabase.getReference("User Name");
         userEmail = firebaseDatabase.getReference("E-mail");
-        adhr = findViewById(R.id.adhaarNumber);
+     //   adhr = findViewById(R.id.adhaarNumber);
     }
 }

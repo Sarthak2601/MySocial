@@ -6,8 +6,8 @@ public class Task {
     String cause;
     int date;
     String location;
-    String requirement1;
-    String requirement2;
+    String requirement;
+    String accountNumber;
 
     public String getCause() {
         return cause;
@@ -33,19 +33,19 @@ public class Task {
         this.location = location;
     }
 
-    public String getRequirement1() {
-        return requirement1;
+    public String getRequirement() {
+        return requirement;
     }
 
-    public void setRequirement1(String requirement1) {
-        this.requirement1 = requirement1;
+    public void setRequirement(String requirement) {
+        this.requirement = requirement;
     }
 
-    public String getRequirement2() {
-        return requirement2;
+    public String getAccountNumber() {
+        return accountNumber;
     }
 
-    public void setRequirement2(String requirement2) {
-        this.requirement2 = requirement2;
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
     }
 }

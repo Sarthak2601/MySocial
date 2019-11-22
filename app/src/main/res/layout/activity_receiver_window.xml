@@ -80,7 +80,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
 
-        android:hint="Requirement 1: "
+        android:hint="Requirement "
 
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,15 +96,15 @@
 
         android:ems="10"
 
-        android:hint="Requirement 2: "
-        android:inputType="textPersonName"
+        android:hint="Account Number "
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/req1" />
 
     <Button
-        android:id="@+id/cause"
+        android:id="@+id/postcause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Post Cause"
@@ -112,7 +112,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/req2"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintVertical_bias="0.445" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
