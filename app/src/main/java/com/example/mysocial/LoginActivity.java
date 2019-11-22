@@ -36,15 +36,16 @@ public class LoginActivity extends AppCompatActivity {
         authStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+           //     FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
 
-                if ( firebaseUser != null){
+              /*  if ( firebaseUser != null){
 
                     Toast.makeText(LoginActivity.this, "Logged in", Toast.LENGTH_SHORT).show();
 
                     Intent signIn = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(signIn);
                 }
+                */
             }
         };
 

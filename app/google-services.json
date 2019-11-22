@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "359644326257",
+    "firebase_url": "https://mysocial-fcb88.firebaseio.com",
+    "project_id": "mysocial-fcb88",
+    "storage_bucket": "mysocial-fcb88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359644326257:android:e8784661a079ff7948aed0",
+        "android_client_info": {
+          "package_name": "com.example.mysocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359644326257-t89c95va95cbpn596ijnfhb3u3ttmqli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3g6h-JZ_0vH4OQ260E2UWEZmS8y8bdhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359644326257-t89c95va95cbpn596ijnfhb3u3ttmqli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
