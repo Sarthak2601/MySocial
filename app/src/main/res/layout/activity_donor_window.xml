@@ -19,24 +19,103 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="400dp"
-        android:layout_height="398dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.201" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Donote"
+        android:layout_marginBottom="56dp"
+        android:text="Donate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Cause_Receiver"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Langar"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <TextView
+        android:id="@+id/Location_Receiver"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="Ghaziabad"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cause_Receiver"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/Contact_Receiver"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="9022229393"
+        android:layout_marginTop="17dp"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Location_Receiver"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/Date_Receiver"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="12/12/2019"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Contact_Receiver"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/Requirement_Receiver"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="#000"
+        android:text="INR 5000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Date_Receiver"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/AccountN_Receiver"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="#000"
+        android:text="10202049"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Requirement_Receiver"
+        app:layout_constraintVertical_bias="0.009" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

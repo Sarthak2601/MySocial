@@ -22,15 +22,14 @@ public class signUp extends AppCompatActivity {
     Button button;
     TextView em,pwd,cpwd,nme,adhr;
     FirebaseAuth firebaseAuth;
-    FirebaseDatabase firebaseDatabase;
-    DatabaseReference usName,userEmail;
+
 
 
     public void signUp(View view){
         final String email = em.getText().toString();
         String password = pwd.getText().toString();
         String cpassword = cpwd.getText().toString();
-        String aadhaar = adhr.getText().toString();
+
         final String userName = nme.getText().toString();
         if(email.isEmpty()){
 
@@ -108,9 +107,8 @@ public class signUp extends AppCompatActivity {
         cpwd = findViewById(R.id.editText5);
         firebaseAuth = FirebaseAuth.getInstance();
         nme = findViewById(R.id.name);
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        usName = firebaseDatabase.getReference("User Name");
-        userEmail = firebaseDatabase.getReference("E-mail");
-     //   adhr = findViewById(R.id.adhaarNumber);
+
+
+
     }
 }
